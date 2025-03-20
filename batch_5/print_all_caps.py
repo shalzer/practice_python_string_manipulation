@@ -3,3 +3,7 @@
 #Ask user to enter full name
 #correct the format using .upper
 #print full name in all capital letters
+
+name = input("Enter Full Name: ")
+all_caps_name = name.upper()
+print(all_caps_name)
