@@ -3,3 +3,7 @@
 #Ask user to enter a number from 0-1000
 #Using f-string, change the format of entered number into 6-digit format adding zeros to complete it.
 #print the number in correct format
+
+num = int(input("Enter a number (0-1000): "))
+six_digit_num = f"{num:06}"
+print(six_digit_num)
