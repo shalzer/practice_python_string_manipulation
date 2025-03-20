@@ -2,3 +2,6 @@
 
 #Ask the user to enter their full name with extra space at beginning
 #Print their full name without space
+
+user_name = input("Enter your full name with space at the front: ").lstrip()
+print(user_name)
