@@ -3,3 +3,7 @@
 #Ask user to enter full name
 #correct the format using .lower
 #print full name in lower case
+
+name = input("Enter Full Name: ")
+NAME_LOWER = name.lower()
+print(NAME_LOWER)
