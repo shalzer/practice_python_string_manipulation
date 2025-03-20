@@ -3,3 +3,7 @@
 #Ask user to input their full name
 #Using len(), it counts how many characters are in input
 #Prints the number of characters
+
+name = input("enter name: ")
+all_caps_name = len(name)
+print(all_caps_name)
