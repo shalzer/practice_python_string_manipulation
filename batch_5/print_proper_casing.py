@@ -2,3 +2,6 @@
 
 #Ask user to enter their full name in incorrect casing
 #Print their full name in proper casing
+
+name = input("Enter your full name: ")
+print(name.title())
