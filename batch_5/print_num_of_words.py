@@ -2,3 +2,6 @@
 
 #Ask user to put a complete statement
 #Print number of words entered
+
+statement = input("Enter a statement: ")
+print(len(statement.split()))
