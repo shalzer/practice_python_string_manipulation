@@ -2,3 +2,6 @@
 
 #Ask user to input their full name in incorrect casing
 #Print their full name in reverse casing
+
+name = input("Enter your full name: ")
+print(name.swapcase())
